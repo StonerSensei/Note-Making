@@ -6,7 +6,8 @@ import NoteForm from './components/NoteForm';
 import SharedNote from './components/SharedNote';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://noteapp-nmlw.onrender.com/api';
+
 
 function App() {
   const [notes, setNotes] = useState([]);
