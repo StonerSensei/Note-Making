@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { ArrowLeft } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:8080/api';
+const API_BASE_URL = 'https://noteapp-nmlw.onrender.com/api';
 
 const SharedNote = () => {
   const { shareId } = useParams();
